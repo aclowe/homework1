@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Adams Lowe</title>
+</head>
+<body>
+    <h1>Adams Lowe</h1>
+    <!-- Tab links -->
+<section class="tab">
+    <a href="index.html"><button class="tablinks" onclick="openCity(event, 'index.html')">About Me</button></a>
+    <a href="portfolio.html"><button class="tablinks" onclick="openCity(event, 'portfolio.html')">Portfolio</button></a>
+    <a href="contact.html"><button class="tablinks" onclick="openCity(event, 'contact.html')">Contact</button></a>
+</section>
+      <br>
+    <!-- Tab content -->
+      <div id="Contact">
+        <h3>Contact</h3>
+        <!-- <form class="forms" action="/action_page.php">
+            <div id="name"> Name: <input type="text" name="name">
+            </div>
+            <br>
+            <div id="email"> Email: <input type="text" name="email">
+            </div>
+            <br>
+            <div id="organization"> Organization: <input type="text" name="Organization">
+            </div>
+            <br>
+            <div id="message"> Message: <textarea rows:"5"; cols:"10">
+            </textarea>
+            </div>
+            <br>
+            <div id="submit"> <input type="submit" value="Submit">
+            </div>
+          </form> -->
+          <form action="https://formspree.io/lowe.adams@gmail.com"
+      method="POST">
+        <div> Name: <input type="text" name="Name"></div>
+        <br>
+        <div> Organization: <input type="text" name="Organization"></div>
+        <br>
+        <div> Email: <input type="email" name="Email"></div>
+        <br>
+        <div> Message:  <input type="text" name="Message"></div>
+        <br>
+        <div><input type="submit" value="Send"></div>
+        <br>
+</form>
+      </div>
+</body>
+</html>
