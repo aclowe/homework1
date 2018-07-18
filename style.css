@@ -27,40 +27,31 @@ h1 {
 #Portfolio {
     border: 5px solid rgb(37, 37, 37);
     background: rgb(193, 194, 196);
+    padding: 10px;
+    margin: 10px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    color: black;
+    line-height: 150%;
     overflow: auto;
     clear: both;
 }
 
 .Bio-Pic {
-    padding: 10px;
-    margin: 10px;
-    color: black;
     float: left;
 }
 
 .Bio-Words, {
-    padding: 10px;
-    margin: 10px;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 18px;
-    line-height: 150%;
-    color: black;
     text-align: left;
     float: left;
     }
 
 .Bio-Pic {
-    padding: 10px;
+    padding: 0px 10px 10px 0px;
     margin: 10px;  
 }
 
 #Portfolio {
-    padding: 10px;
-    margin: 10px;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 18px;
-    line-height: 150%;
-    color: black;
     text-align: left;
     }
 
@@ -70,14 +61,7 @@ h1 {
 }
 
 #Contact {
-    padding: 20px;
-    margin: 20px;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 18px;
-    line-height: 150%;
-    color: black;
     text-align: left;
-    height: 350px;
     }
 
 .forms {
