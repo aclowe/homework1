@@ -22,6 +22,10 @@ h1 {
     width: 20%;
 }
 
+.tablinks:hover {
+    background: rgb(4, 55, 78);
+}
+
 #About-Me,
 #Contact,
 #Portfolio {
@@ -35,34 +39,135 @@ h1 {
     line-height: 150%;
     overflow: auto;
     clear: both;
+
 }
 
 .Bio-Pic {
     float: left;
+    margin: 0px 10px 5px 0px;
 }
 
 .Bio-Words, {
     text-align: left;
     float: left;
-    }
-
-.Bio-Pic {
-    padding: 0px 10px 10px 0px;
-    margin: 10px;  
+    margin: 0px 10px 0px 0px;
 }
 
 #Portfolio {
-    text-align: left;
-    }
+    text-align: center;
+}
 
-#project {
-    padding: 10px;
-    margin: 20px;
+#project1 {
+    position: relative;
+    z-index: 1;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#project2 {
+    position: relative;
+    z-index: 1;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#project3 {
+    position: relative;
+    z-index: 1;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#project4 {
+    position: relative;
+    z-index: 1;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#project5 {
+    position: relative;
+    z-index: 1;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#project6 {
+    position: relative;
+    z-index: 1;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#phtext1 {
+    position: absolute;
+    bottom: 0%;
+    z-index: 2;
+    width: 350px;
+    background: rgb(156, 155, 155);
+    text-align: center;
+    opacity: 0.85;
+}
+
+#phtext2 {
+    position: absolute;
+    bottom: 0%;
+    z-index: 2;
+    width: 350px;
+    background: rgb(156, 155, 155);
+    text-align: center;
+    opacity: 0.85;
+  
+}
+
+#phtext3 {
+    position: absolute;
+    bottom: 0%;
+    z-index: 2;
+    width: 350px;
+    background: rgb(156, 155, 155);
+    text-align: center;
+    opacity: 0.85;
+}
+
+#phtext4 {
+    position: absolute;
+    bottom: 0%;
+    z-index: 2;
+    width: 350px;
+    background: rgb(156, 155, 155);
+    text-align: center;
+    opacity: 0.85;
+}
+
+#phtext5 {
+    position: absolute;
+    bottom: 0%;
+    z-index: 2;
+    width: 350px;
+    background: rgb(156, 155, 155);
+    text-align: center;
+    opacity: 0.85;
+}
+#phtext6 {
+    position: absolute;
+    bottom: 0%;
+    z-index: 2;
+    width: 350px;
+    background: rgb(156, 155, 155);
+    text-align: center;
+    opacity: 0.85;
 }
 
 #Contact {
     text-align: left;
-    }
+}
 
 .forms {
     padding: 10px;
